@@ -1,0 +1,32 @@
+# Node modules (backend + frontend)
+**/node_modules/
+
+# Build output
+**/build/
+**/dist/
+
+# Env files
+**/.env
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+
+# React-specific (in frontend)
+frontend/.cache/
+frontend/.parcel-cache/
+frontend/.eslintcache
+
+# Optional test/report files
+coverage/
+*.lcov
