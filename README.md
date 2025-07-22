@@ -19,7 +19,7 @@ This project is a registration system for AASTU, containing both frontend and ba
 ### Prerequisites
 
 - Node.js and npm installed
-- A database (e.g., PostgreSQL or MySQL) configured for the backend
+- A database (MySQL) configured for the backend
 
 ### Installation
 
@@ -29,7 +29,7 @@ This project is a registration system for AASTU, containing both frontend and ba
    git clone https://github.com/yehwe/AASTU-registration-system.git
    cd AASTU-registration-system
    cd backend
-npm install
+- npm install
 - Configure your database connection in backend/config/database.js
 - Run migrations and seed the database as needed
 - cd ../frontend
@@ -37,6 +37,6 @@ npm install
 - cd backend
 - node server.js
 - cd frontend
-- npm run dev
+- npm run dev 
 
 
