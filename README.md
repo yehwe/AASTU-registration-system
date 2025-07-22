@@ -30,13 +30,13 @@ This project is a registration system for AASTU, containing both frontend and ba
    cd AASTU-registration-system
    cd backend
 npm install
-# Configure your database connection in backend/config/database.js
-# Run migrations and seed the database as needed
-cd ../frontend
-npm install
-cd backend
-node server.js
-cd frontend
-npm run dev
+- Configure your database connection in backend/config/database.js
+- Run migrations and seed the database as needed
+- cd ../frontend
+- npm install
+- cd backend
+- node server.js
+- cd frontend
+- npm run dev
 
 
